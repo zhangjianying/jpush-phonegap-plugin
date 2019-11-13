@@ -202,7 +202,7 @@
             <meta-data android:name="JPUSH_APPKEY" android:value="$APP_KEY" />
         </config-file>
 
-        <lib-file src="src/android/libs/jpush-android-3.1.7.jar" />
+        <lib-file src="src/android/libs/jpush-android-3.3.9.jar" />
 
         <source-file src="src/android/JPushReceiver.java" target-dir="src/cn/jiguang/cordova/push" />
         <source-file src="src/android/JPushPlugin.java" target-dir="src/cn/jiguang/cordova/push" />
@@ -218,14 +218,21 @@
         <resource-file src="src/android/res/drawable-hdpi/jpush_ic_richpush_actionbar_divider.png"
           target="res/drawable-hdpi/jpush_ic_richpush_actionbar_divider.png" />
 
-        <resource-file src="src/android/res/layout/jpush_popwin_layout.xml" 
+        <resource-file src="src/android/res/layout/jpush_popwin_layout.xml"
           target="res/layout/jpush_popwin_layout.xml" />
-        <resource-file src="src/android/res/layout/jpush_webview_layout.xml" 
+        <resource-file src="src/android/res/layout/jpush_webview_layout.xml"
           target="res/layout/jpush_webview_layout.xml" />
-        <resource-file src="src/android/res/layout/test_notification_layout.xml" 
+        <resource-file src="src/android/res/layout/test_notification_layout.xml"
           target="res/layout/test_notification_layout.xml" />
+        <resource-file src="src/android/res/layout/push_notification.xml"
+          target="res/layout/push_notification.xml" />
 
         <resource-file src="src/android/res/values/jpush_style.xml"
           target="res/values/jpush_style.xml" />
+        <resource-file src="src/android/res/values/jpush_string.xml"
+          target="res/values/jpush_string.xml" />
+        <resource-file src="src/android/res/values-zh/jpush_string.xml"
+          target="res/values/jpush_string.xml" />
+
     </platform>
 </plugin>
