@@ -247,7 +247,7 @@
             <meta-data android:name="JPUSH_APPKEY" android:value="$APP_KEY" />
         </config-file>
 
-        <lib-file src="src/android/libs/jpush-android-3.5.8.jar" />
+        <lib-file src="src/android/libs/jpush-android-3.6.0.jar" />
 
         <source-file src="src/android/JPushReceiver.java" target-dir="src/cn/jiguang/cordova/push" />
         <source-file src="src/android/JPushPlugin.java" target-dir="src/cn/jiguang/cordova/push" />
